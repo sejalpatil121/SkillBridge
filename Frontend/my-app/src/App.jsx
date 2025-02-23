@@ -10,6 +10,7 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import Footer from './components/Footer';
+import Seach from './components/Seach'
 
 import './App.css';
 import './index.css';
@@ -28,8 +29,9 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
-        <Route path='/profile' element={<Profile/>}/>
-        
+        <Route path='/profile/:id' element={<Profile />} />
+        <Route path='/search' element={<Seach />} /> 
+       
 
         
 
