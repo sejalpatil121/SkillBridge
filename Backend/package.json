@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/neo-akshay11/SkillBridge#readme",
   "dependencies": {
+    "@google/generative-ai": "^0.22.0",
     "bcrypt": "^5.1.1",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
