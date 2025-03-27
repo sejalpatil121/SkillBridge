@@ -12,6 +12,8 @@ import Profile from "./pages/Profile";
 import Footer from './components/Footer';
 import Seach from './components/Seach'
 import Recommend from "./pages/Recommend";
+import Chat from "./components/Chat";
+import axios from "axios";  // Import axios to fetch user info
 
 import './App.css';
 import './index.css';
@@ -33,8 +35,7 @@ function App() {
         <Route path='/profile/:id' element={<Profile />} />
         <Route path='/search' element={<Seach />} /> 
         <Route path="/recommend" element={<Recommend />} />
-       
-
+        <Route path="/chat/:selectedUser" element={<Chat />} />
         
 
       </Routes>
